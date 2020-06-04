@@ -1,0 +1,20 @@
+{
+    "name": "redchamps/module-snowdog-menu-luma-support",
+    "description": "This extension will make snowdog/module-menu compatible with luma theme",
+    "require": {
+        "snowdog/module-menu": "*"
+    },
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "psr-4": {
+            "RedChamps\\SnowDogMenuLumaSupport\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "type": "magento2-module",
+    "version": "1.0.0"
+}

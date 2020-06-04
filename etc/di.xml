@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Snowdog\Menu\Block\Menu">
+        <plugin name="snowdog.support.menu" type="RedChamps\SnowDogMenuLumaSupport\Plugin\Menu" sortOrder="10" disabled="false"/>
+    </type>
+    <type name="Snowdog\Menu\Block\NodeType\CustomUrl">
+        <plugin name="snowdog.support.customurl" type="RedChamps\SnowDogMenuLumaSupport\Plugin\CustomUrl" sortOrder="30" disabled="false"/>
+    </type>
+</config>

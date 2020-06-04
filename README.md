@@ -1,5 +1,5 @@
 # Snowdog Menu Luma Support - Magento 2 Extension   
-[![Latest Stable Version](https://img.shields.io/packagist/v/redchamps/module-clean-admin-menu.svg?style=flat-square)](https://packagist.org/packages/redchamps/module-snowdog-menu-luma-support)     
+[![Latest Stable Version](https://img.shields.io/packagist/v/redchamps/module-snowdog-menu-luma-support.svg?style=flat-square)](https://packagist.org/packages/redchamps/module-snowdog-menu-luma-support)     
 [![Packagist](https://img.shields.io/packagist/dt/redchamps/module-snowdog-menu-luma-support.svg?style=flat-square)](https://packagist.org/packages/redchamps/module-snowdog-menu-luma-support/stats)  
 [![Packagist](https://img.shields.io/packagist/dm/redchamps/module-snowdog-menu-luma-support.svg?style=flat-square)](https://packagist.org/packages/redchamps/module-snowdog-menu-luma-support/stats)  
   
@@ -41,5 +41,6 @@ and paste inside your theme under:
   
 - Sanchit [Maintainer] [![Twitter Follow](https://img.shields.io/twitter/follow/_techDriven.svg?style=social)](https://twitter.com/_techDriven)  
 
+## Ad
 
 Please visit our store https://redchamps.com for more free/paid extensions from us.

@@ -4,7 +4,7 @@ namespace RedChamps\SnowDogMenuLumaSupport\Plugin;
 class Menu
 {
     /**
-     * Return customized phtml file
+     * Return customized template file
      * @param \Snowdog\Menu\Block\Menu $subject
      */
     public function beforeToHtml(\Snowdog\Menu\Block\Menu $subject)
@@ -22,8 +22,16 @@ class Menu
      */
     public function beforeBuildAttrFromArray(\Snowdog\Menu\Block\Menu $subject, array $array)
     {
-        if (isset($array['data-menu'])) {
-            $array['class'][0].=" submenu";
+        if (isset($array['class'])) {
+            if (isset($array['data-menu'])) {
+                $array['class'][0].=" submenu";
+            }
+            /*find array element with --parent keyword */
+            $parentElement = preg_grep('~' . preg_quote('--parent', '~') . '~', $array['class']);
+            if (count($parentElement) > 0) {
+                $arrayElementKey = array_key_first($parentElement);
+                $array['class'][$arrayElementKey] .= ' parent ';
+            }
         }
         return [$array];
     }

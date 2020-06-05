@@ -19,7 +19,8 @@
                 $childrenLevel = $node->getLevel() + 1;
                 $children = $block->getNodes($childrenLevel, $node);
                 $node->setIsParent((bool) $children);
-                $parentClass = $children ? ' ' . $menuClass . '__item--parent' : '';
+                /** @var $parentClass appending the parent class to show dropdown arrow*/
+                $parentClass = $children ? ' ' . $menuClass . '__item--parent parent ' : '';
                 $additionalClasses = $node->getClasses() ? ' ' . $node->getClasses() : '';
                 /** appending the level0 class to root navigation element */
                 $itemClasses = ' level0 ' . $parentClass . $additionalClasses;

@@ -18,7 +18,7 @@ You can use the RedChamps "snowdog-menu-luma-support" extension to display navig
  - By default the extension use the **main** menu identifier to show navigation. So you must have the menu with "main" identifier under the 
  > Content > menu
  
- - If you want to display different identifier navigation menu other then **main** menu identifier. Then copy the **default.xml** file from 
+ - If you want to display different identifier navigation menu other than **main** menu identifier. Then copy the **default.xml** file from 
  > /vendor/redchamps/module-snowdog-menu-luma-support/view/frontend/layout
 
 and paste inside your theme under:

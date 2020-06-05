@@ -2,7 +2,7 @@
     <type name="Snowdog\Menu\Block\Menu">
         <plugin name="snowdog.support.menu" type="RedChamps\SnowDogMenuLumaSupport\Plugin\Menu" sortOrder="10" disabled="false"/>
     </type>
-    <type name="Snowdog\Menu\Block\NodeType\CustomUrl">
-        <plugin name="snowdog.support.customurl" type="RedChamps\SnowDogMenuLumaSupport\Plugin\CustomUrl" sortOrder="30" disabled="false"/>
+    <type name="Snowdog\Menu\Block\NodeType\AbstractNode">
+        <plugin name="snowdog.support.element" type="RedChamps\SnowDogMenuLumaSupport\Plugin\AbstractNode" sortOrder="30" disabled="false"/>
     </type>
 </config>

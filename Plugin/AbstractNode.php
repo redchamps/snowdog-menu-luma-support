@@ -12,7 +12,7 @@ class AbstractNode
      */
     public function after__call(\Snowdog\Menu\Block\NodeType\AbstractNode $subject, $result, $method)
     {
-        if ($method == 'setMenuClass') {
+        if ($method == 'setMenuClass' && $subject->getData('is_root')) {
             $result->setData(
                 "menu_class",
                 $result->getData('menu_class') . ' level-top '

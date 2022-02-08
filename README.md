@@ -1,3 +1,5 @@
+## This repo is no longer maintained. Alternative module available here https://github.com/vseager/magento2-snowdog-menu-luma
+
 # Snowdog Menu Luma Support - Magento 2 Extension   
 [![Latest Stable Version](https://img.shields.io/packagist/v/redchamps/module-snowdog-menu-luma-support.svg?style=flat-square)](https://packagist.org/packages/redchamps/module-snowdog-menu-luma-support)     
 [![Packagist](https://img.shields.io/packagist/dt/redchamps/module-snowdog-menu-luma-support.svg?style=flat-square)](https://packagist.org/packages/redchamps/module-snowdog-menu-luma-support/stats)  
